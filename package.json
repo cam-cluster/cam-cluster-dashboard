@@ -1,0 +1,46 @@
+{
+  "name": "@cam-cluster/dashboard",
+  "version": "0.1.0",
+  "description": "Web Dashboard for cam-cluster",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cam-cluster/cam-cluster-dashboard.git"
+  },
+  "keywords": [
+    "camera",
+    "video",
+    "v4l",
+    "react"
+  ],
+  "author": "Kevin Killingsworth (https://github.com/coderkevin)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cam-cluster/cam-cluster-dashboard/issues"
+  },
+  "homepage": "https://github.com/cam-cluster/cam-cluster-dashboard#readme",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "dependencies": {
+    "@fresh-data/framework": "^0.6.1",
+    "@fresh-data/react-provider": "^0.6.1",
+    "evergreen-ui": "^4.15.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "react-scripts": "^3.0.0",
+    "redux": "^4.0.1"
+  }
+}
